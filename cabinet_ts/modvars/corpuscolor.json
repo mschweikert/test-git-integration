@@ -1,0 +1,51 @@
+{
+  "variantId": "corpusColor",
+  "shortName": "corpusColor",
+  "variantTypeId": "Text",
+  "restrictionTypeId": "Public",
+  "isArray": false,
+  "isPosRelevant": true,
+  "matrix": [
+    {
+      "id": "BestellNo",
+      "type": "Text",
+      "default": "4711"
+    },
+    {
+      "id": "Angle",
+      "type": "Real",
+      "default": 90.0,
+      "isCustom": true
+    }
+  ],
+  "selections": [
+    {
+      "value": "Red",
+      "imageId": "attributes/module/corpusColor/selections/6/corpusColor6Filename",
+      "matrix": [
+        {
+          "id": "BestellNo",
+          "value": "4711ROT"
+        },
+        {
+          "id": "Custom_Angle",
+          "value": 270.0
+        }
+      ]
+    },
+    {
+      "value": "Green",
+      "imageId": "attributes/module/corpusColor/selections/7/corpusColor7Filename",
+      "matrix": [
+        {
+          "id": "BestellNo",
+          "value": "4711GRÜN"
+        },
+        {
+          "id": "Custom_Angle",
+          "value": 180.0
+        }
+      ]
+    }
+  ]
+}

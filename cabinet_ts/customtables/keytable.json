@@ -1,0 +1,114 @@
+{
+  "tableName": "KeyTable",
+  "description": "Custom table with unique column",
+  "columns": [
+    {
+      "name": "_id",
+      "type": "Integer",
+      "allowNull": false
+    },
+    {
+      "name": "UniqueKey",
+      "type": "Text",
+      "allowNull": true,
+      "isIdentity": true
+    },
+    {
+      "name": "Text01",
+      "type": "Text",
+      "allowNull": true
+    },
+    {
+      "name": "Model3d",
+      "type": "Model3D",
+      "allowNull": true
+    },
+    {
+      "name": "Model3dParameters",
+      "type": "Model3DParameters",
+      "allowNull": true
+    }
+  ],
+  "rows": [
+    {
+      "data": [
+        {
+          "columnName": "UniqueKey",
+          "value": "unique key 1"
+        },
+        {
+          "columnName": "Text01",
+          "value": "text value 1"
+        },
+        {
+          "columnName": "Model3d",
+          "value": "customtables/KeyTable/model3d_1"
+        },
+        {
+          "columnName": "Model3dParameters",
+          "value": "{value: 'model3dparameters_1'}"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "columnName": "UniqueKey",
+          "value": "unique key 2"
+        },
+        {
+          "columnName": "Text01",
+          "value": "text value 2"
+        },
+        {
+          "columnName": "Model3d",
+          "value": "customtables/KeyTable/model3d_2"
+        },
+        {
+          "columnName": "Model3dParameters",
+          "value": "{value: 'model3dparameters_2'}"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "columnName": "UniqueKey",
+          "value": "unique key 3"
+        },
+        {
+          "columnName": "Text01",
+          "value": "text value 3"
+        },
+        {
+          "columnName": "Model3d",
+          "value": "customtables/KeyTable/model3d_3"
+        },
+        {
+          "columnName": "Model3dParameters",
+          "value": "{value: 'model3dparameters_3'}"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "columnName": "UniqueKey",
+          "value": "unique key 4"
+        },
+        {
+          "columnName": "Text01",
+          "value": "text value 4"
+        },
+        {
+          "columnName": "Model3d",
+          "value": "customtables/KeyTable/model3d_3"
+        },
+        {
+          "columnName": "Model3dParameters",
+          "value": "{value: 'model3dparameters_4'}"
+        }
+      ]
+    }
+  ]
+}

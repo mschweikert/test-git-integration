@@ -1,0 +1,16 @@
+{
+  "bomElementTypeId": "Platte",
+  "shortName": "Platte",
+  "bomType": "BOM",
+  "assignedVars": [
+    {
+      "bomElementTypeVarId": "length"
+    },
+    {
+      "bomElementTypeVarId": "thickness"
+    },
+    {
+      "bomElementTypeVarId": "width"
+    }
+  ]
+}

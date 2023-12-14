@@ -1,0 +1,16 @@
+{
+  "partCode": "102_SidePanelRight",
+  "shortName": "102_SidePanelRight",
+  "description": "",
+  "wdt": "YZX",
+  "restrictionTypeId": "",
+  "partVariants": [],
+  "bomData": [
+    {
+      "bomElementTypeId": "Platte",
+      "description": "Platte für Seite rechts",
+      "valueScript": "this.length = partSelf._dimz;\r\nthis.width = partSelf._dimy;\r\nthis.thickness = partSelf._dimx;"
+    }
+  ],
+  "ncData": []
+}

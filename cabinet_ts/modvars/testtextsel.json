@@ -1,0 +1,30 @@
+{
+  "variantId": "testTextSel",
+  "shortName": "testTextSel",
+  "variantTypeId": "Text",
+  "description": "All values are text selecatbled",
+  "restrictionTypeId": "Custom",
+  "isArray": false,
+  "isPosRelevant": true,
+  "matrix": [],
+  "selections": [
+    {
+      "value": "Sel01",
+      "imageId": "attributes/module/testTextSel/selections/15/testTextSel15Filename",
+      "matrix": []
+    },
+    {
+      "value": "Sel02",
+      "imageId": "attributes/module/testTextSel/selections/16/testTextSel16Filename",
+      "matrix": []
+    },
+    {
+      "value": "Sel100",
+      "matrix": []
+    },
+    {
+      "value": "Sel200",
+      "matrix": []
+    }
+  ]
+}
